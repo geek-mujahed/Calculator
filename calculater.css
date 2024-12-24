@@ -1,0 +1,309 @@
+
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: aqua;
+    margin-top: 150px;
+}
+h4{
+    color: white;
+    margin-top: 7;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 130PX;
+    font-size: 13PX;
+}
+.calculator{
+    box-shadow: 8px 8px 8px gray;
+    background-color: black;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid black;
+    width: 300px;
+    height: 380;
+}
+
+#inpt{
+    font-family: VT323
+    ;
+    padding: 10px;
+    border-radius: 3px;
+    border: 2px solid white;
+    width: 300px;
+    height: 50px;
+    background-color: rgb(194, 223, 223);
+    font-size: 50px;
+}
+
+
+.allnumber{
+    margin-left: 9px;
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+    
+}
+
+#seven{
+    width: 55px;
+    padding: 8px;
+    font-size: 20px;
+    border: none;
+    border-radius: 3px;
+    background-color: rgb(198, 192, 192);
+    transition: all 0.3s;
+}
+
+#seven:hover{
+    background-color: rgb(132, 130, 130);
+    transform: scale(0.9);
+
+}
+
+#eight{
+    width: 55px;
+    padding: 8px;
+    font-size: 20px;
+    border: none;
+    border-radius: 3px;
+    background-color: rgb(198, 192, 192);
+    transition: all 0.3s;
+}
+
+#eight:hover{
+    background-color: rgb(132, 130, 130);
+    transform: scale(0.9);
+}
+#nine{
+    width: 55px;
+    padding: 8px;
+    font-size: 20px;
+    border: none;
+    border-radius: 3px;
+    background-color: rgb(198, 192, 192);
+    transition: all 0.3s;
+}
+
+#nine:hover{
+    background-color: rgb(132, 130, 130);
+    transform: scale(0.9);
+}
+
+#division{
+    width: 55px;
+    padding: 8px;
+    font-size: 20px;
+    border: none;
+    border-radius: 3px;
+    background-color: rgb(198, 192, 192);
+    transition: all 0.3s;
+}
+
+#division:hover{
+    background-color: rgb(132, 130, 130);
+    transform: scale(0.9);
+}
+
+#four{
+    width: 55px;
+    padding: 8px;
+    font-size: 20px;
+    border: none;
+    border-radius: 3px;
+    background-color: rgb(198, 192, 192);
+    transition: all 0.3s;
+}
+
+#four:hover{
+    background-color: rgb(132, 130, 130);
+    transform: scale(0.9);
+}
+
+#five{
+    width: 55px;
+    padding: 8px;
+    font-size: 20px;
+    border: none;
+    border-radius: 3px;
+    background-color: rgb(198, 192, 192);
+    transition: all 0.3s;
+}
+
+#five:hover{
+    background-color: rgb(132, 130, 130);
+    transform: scale(0.9);
+}
+
+#six{
+    width: 55px;
+    padding: 8px;
+    font-size: 20px;
+    border: none;
+    border-radius: 3px;
+    background-color: rgb(198, 192, 192);
+    transition: 0.3s;
+}
+
+#six:hover{
+    background-color: rgb(132, 130, 130);
+    transform: scale(0.9);
+}
+
+#star{
+    width: 55px;
+    padding: 8px;
+    font-size: 20px;
+    border: none;
+    border-radius: 3px;
+    background-color: rgb(198, 192, 192);
+    transition: all 0.3s;
+}
+
+#star:hover{
+    background-color: rgb(132, 130, 130);
+    transform: scale(0.9);
+}
+
+#one{
+    width: 55px;
+    padding: 8px;
+    font-size: 20px;
+    border: none;
+    border-radius: 3px;
+    background-color: rgb(198, 192, 192);
+    transition: all 0.3s;
+}
+
+#one:hover{
+    background-color: rgb(132, 130, 130);
+    transform: scale(0.9);
+}
+
+#two{
+    width: 55px;
+    padding: 8px;
+    font-size: 20px;
+    border: none;
+    border-radius: 3px;
+    background-color: rgb(198, 192, 192);
+    transition: all 0.3s;
+}
+
+#two:hover{
+    background-color: rgb(132, 130, 130);
+    transform: scale(0.9);
+}
+
+#three{
+    width: 55px;
+    padding: 8px;
+    font-size: 20px;
+    border: none;
+    border-radius: 3px;
+    background-color: rgb(198, 192, 192);
+    transition: all 0.3s;
+}
+
+#three:hover{
+    background-color: rgb(132, 130, 130);
+    transform: scale(0.9);
+}
+
+#minus{
+    width: 55px;
+    padding: 8px;
+    font-size: 20px;
+    border: none;
+    border-radius: 3px;
+    background-color: rgb(198, 192, 192);
+    transition: all 0.3s;
+}
+
+#minus:hover{
+    background-color: rgb(132, 130, 130);
+    transform: scale(0.9);
+}
+
+#dot{
+    width: 55px;
+    padding: 8px;
+    font-size: 20px;
+    border: none;
+    border-radius: 3px;
+    background-color: rgb(198, 192, 192);
+    transition: all 0.3s;
+}
+
+#dot:hover{
+    background-color: rgb(132, 130, 130);
+    transform: scale(0.9);
+}
+
+#zero{
+    width: 55px;
+    padding: 8px;
+    font-size: 20px;
+    border: none;
+    border-radius: 3px;
+    background-color: rgb(198, 192, 192);
+    transition: all 0.3s;
+}
+
+#zero:hover{
+    background-color: rgb(132, 130, 130);
+    transform: scale(0.9);
+}
+
+#plus{
+    width: 55px;
+    padding: 8px;
+    font-size: 20px;
+    border: none;
+    border-radius: 3px;
+    background-color: rgb(198, 192, 192);
+    transform: matrix( 0.3s);
+}
+
+#plus:hover{
+    background-color: rgb(132, 130, 130);
+    transform: scale(0.9);
+}
+
+#see{
+    width: 55px;
+    padding: 8px;
+    font-size: 20px;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    background-color: red;
+    transition: all 0.3s;
+}
+
+#see:hover{
+    background-color: rgb(254, 33, 33);
+    transform: scale(0.9);
+}
+
+#result{
+    font-size: 20px;
+    margin-left: 10px;
+    margin-top: 18px;
+    width: 278px;
+    height: 45;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    transition: all 0.3s;
+}
+
+#result:hover{
+    background-color: rgb(253, 35, 35);
+    transform: scale(0.9);
+}
